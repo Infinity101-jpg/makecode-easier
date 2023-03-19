@@ -27,7 +27,7 @@ while True:
         start = False;
 
         def main_func():
-            return "Hello, world! ";
+            return "";
         
         run(main_func())
 
@@ -35,7 +35,7 @@ while True:
         BtnA = False;
 
         def btna_func():
-            return "btn a pressed! ";
+            return "";
         
         run(btna_func())
     
@@ -43,6 +43,6 @@ while True:
         BtnB = False;
 
         def btnb_func():
-            return "btn b pressed! ";
+            return "";
         
         run(btnb_func())
