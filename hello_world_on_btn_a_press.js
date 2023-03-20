@@ -45,7 +45,7 @@ while (true) {
     if (BtnA) {
         BtnA = false
         function btna_func(): any {
-            return "";
+            return "hello, world!\n";
         }
         
         run(btna_func())
